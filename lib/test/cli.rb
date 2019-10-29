@@ -1,8 +1,18 @@
-require "test/cli/version"
 
-module Test
-  module Cli
-    class Error < StandardError; end
-    # Your code goes here...
+class CLI
+  
+  def run
+    puts "Welcome to Fire Emblem Explorer"
+    Scraper.scrape_games
+
   end
+  
+  def menu
+    
+  end
+  
+  def print_games
+    
+  end
+  
 end

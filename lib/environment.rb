@@ -1,9 +1,6 @@
-# require 'bundler/setup'
-# require 'open-uri'
-# Bundler.require(:default, :development)
 require 'nokogiri'
 require 'open-uri'
-# require 'pry'
+require 'pry'
 
 require_relative "../lib/game"
 require_relative "../lib/scraper"
