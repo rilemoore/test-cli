@@ -7,3 +7,5 @@ class Scraper
   end
   
 end
+
+#doc.css("li.widget")[3].text.split("\n")
