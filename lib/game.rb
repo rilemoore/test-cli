@@ -4,7 +4,7 @@ class Game
   
   @@all = []
   
-  def initialize(name)
+  def initialize
     @@all << self
   end
   
