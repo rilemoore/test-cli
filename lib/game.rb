@@ -1,6 +1,6 @@
 class Game
   
-  attr_accessor :name, :description, :NA_release, :JP_release, :url
+  attr_accessor :name, :description, :platform, :release_dates, :url
   
   @@all = []
   
