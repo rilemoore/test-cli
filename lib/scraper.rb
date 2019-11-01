@@ -12,7 +12,7 @@ class Scraper
       end
       count += 1
     end
-    # binding.pry
+
   end
   
   def self.scrape_game_details(game)
