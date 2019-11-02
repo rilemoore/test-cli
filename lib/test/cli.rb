@@ -12,9 +12,10 @@ class CLI
     print_games
     input = gets.strip.downcase
     while input != 'exit' do
-      if(input.to_i > 0 && input.to_i < 24)
+      if(input.to_i > 0 && input.to_i < 24 || input == 'menu')
         if(input == 'menu')
           print_games
+          input = gets.strip.downcase
         else
           game = Game.all[input.to_i - 1]
           Scraper.scrape_game_details(game) if !game.description
